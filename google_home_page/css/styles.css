@@ -1,6 +1,7 @@
 html,
 body {
 	font-family: 'Roboto', sans-serif;
+  position: relative;
 }
 
 /*---Header block---*/
@@ -105,7 +106,7 @@ main h1 img {
 	        justify-content: space-between;
 	-webkit-box-align: center;
 	        align-items: center;
-  width: 560px;
+  width: 482px;
   height: 48px;
 	border: 1px solid #dfe1e5;
 	border-radius: 24px;
@@ -162,6 +163,10 @@ main h1 img {
   z-index: 1;
 }
 
+.search-field__micro-icon:hover {
+	cursor: pointer;
+}
+
 .search-field__micro-icon:hover .tooltiptext {
   visibility: visible;
 }
@@ -174,22 +179,80 @@ main h1 img {
 }
 
 button {
-	margin: 32px 4px;
-	width: 142px;
-	padding: 10px 0;
+	margin: 32px 4px 16px;
+	padding: 0 16px;
+	line-height: 27px;
+	height: 36px;
 	border-color: transparent;
-	border-radius: 6px;
+	border-radius: 4px;
 	background-color: #F4F4F4;
-	color: grey;
+	color: #5F6368;
 	font-size: 14px;
 }
 
 button:hover {
-	border: 1px solid grey;
-	color: black;
+	border: 1px solid #c6c6c6;
+	color: #222;
+	cursor: pointer;
+	box-shadow: 0 1px 1px rgba(0,0,0,0.1);
 }
 
+.languages-select {
+	display: -webkit-box;
+	display: flex;
+-webkit-box-orient: horizontal;
+-webkit-box-direction: normal;
+        flex-direction: row;
+        -webkit-box-pack: center;
+                justify-content: center;
+   -webkit-box-align: center;
+        align-items: center;  
 
+}
+
+.languages-select li {
+	list-style: none;
+	margin: 4px;
+	font-size: 13px;
+}
+
+.languages-select li a{
+  text-decoration: none;
+  color: #1a0dab;
+}
+
+.languages-select li a:hover{
+  text-decoration: underline;
+}
+
+footer {
+	display: -webkit-box;
+	display: flex;
+	-webkit-box-pack: justify;
+	        justify-content: space-between;
+	position: fixed;
+  bottom: 0;
+  width: 100%;
+  border-top: 1px solid #e4e4e4;
+  line-height: 40px;
+  background-color: #F2F2F2;
+}
+
+footer span a {
+	padding-left: 27px;
+	text-decoration: none;
+	color: #5f6368;
+	font-size: 13px;
+}
+
+footer span a:hover {
+	cursor: pointer;
+	text-decoration: underline;
+}
+
+footer span:nth-child(2) a:last-child {
+	padding-right: 27px;
+}
 
 
 
