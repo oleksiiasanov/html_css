@@ -22,6 +22,10 @@ list-style: none;
 	                align-items: center;
 }
 
+.header__top-bar_divider-1 {
+	max-width: 100%;
+}
+
 .header__action-buttons-list {
 	display: -webkit-box;
 	display: flex;
@@ -94,14 +98,12 @@ list-style: none;
 
 .header__logo {
 	display: block;
-	width: 92px;
-	height: 30px;
 	margin: 0 22px;
 }
 
 .logo__img {
-	width: 100%;
-	height: 100%;
+	width: 92px;
+	height: 30px;
 }
 
 .header__search-field {
@@ -190,8 +192,17 @@ list-style: none;
 	display: flex;
 	-webkit-box-pack: justify;
 	        justify-content: space-between;
-	width: 620px;
+	max-width: 620px;
   margin-left: 155px;
+  margin-right: auto;
+
+}
+
+
+@media only screen and (max-width: 610px) {
+  .header__nav-bar {
+  margin: auto;
+ }
 }
 
 .header__nav-buttons {

@@ -122,9 +122,6 @@ main h1 img {
 	height: 100%;
 	border: none;
 	padding:12px;
-}
-
-.search-field input:focus {
 	outline: none;
 }
 
