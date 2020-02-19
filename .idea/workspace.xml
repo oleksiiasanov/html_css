@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1fd228ad-7cdb-4dc1-908a-ff1da5561b0d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/html_css" beforeDir="false" afterPath="$PROJECT_DIR$/html_css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html_css/first_js/firstJs.js" beforeDir="false" afterPath="$PROJECT_DIR$/html_css/first_js/firstJs.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/first_js/firstJs.js" beforeDir="false" afterPath="$PROJECT_DIR$/first_js/firstJs.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -11,7 +10,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/html_css" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1Y2BH7gegcVaOSLMj8EKUMLcoRi" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -35,10 +34,17 @@
       <option name="presentableId" value="Default" />
       <updated>1582130717992</updated>
       <workItem from="1582130722011" duration="336000" />
+      <workItem from="1582131072615" duration="659000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="1120" y="260" key="run.anything.popup" timestamp="1582132041419">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="1120" y="260" key="run.anything.popup/67.27.1853.1053@67.27.1853.1053" timestamp="1582132041419" />
   </component>
 </project>
