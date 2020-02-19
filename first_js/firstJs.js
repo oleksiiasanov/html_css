@@ -1,8 +1,5 @@
-let a = 123;
-let b = 'Name';
-let c;
-function firstFunction() {
-    c=a+b;
-    console.log(c)
+var result = prompt('How old are you?', '18');
+
+if(15>20) {
+prompt("message", 12 )
 }
-firstFunction();
