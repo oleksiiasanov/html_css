@@ -1,0 +1,103 @@
+html, body {
+	font-size: 16px;
+	color: #2b2b2b;
+	line-height: 1.75;
+    letter-spacing: normal;
+}
+
+main {
+	margin: 90px auto;
+	max-width: 715px;
+
+}
+
+.item {
+	border-top: 1px solid silver;
+	padding-top: 32px;
+	padding-bottom: 24px;
+}
+
+.item:last-child {
+	border-bottom: 1px solid silver;
+}
+
+.item-title {
+	margin-left: 19px;
+	float: left;
+	overflow: hidden;
+	font-size: 14px;
+	font-weight: bold;
+	line-height: 1.86;
+}	
+
+.item-content {
+	margin-left: 267px;
+}
+
+.map-button {
+	margin-top: 10px;
+	display: -webkit-box;
+	display: flex;
+	border: 1px solid #72a11c;
+	line-height: 38px;
+	max-width: 268px;
+	-webkit-text-decoration-line: none;
+	        text-decoration-line: none;
+	font-size: 13px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    color: #2b2b2b;
+    align-content: center;
+    -webkit-box-pack: center;
+            justify-content: center;
+
+}
+
+.clearfix::after {
+	content:'';
+	display: table;
+	clear: both;	
+}
+
+.social-buttons {
+  margin-left: -10px;
+  margin-top: 80px;
+  display: -webkit-box;
+  display: flex;
+  
+}
+
+.button {
+  -webkit-box-flex: 1;
+          flex: 1;
+  margin-left: 10px;
+  display: -webkit-box;
+  display: flex;
+  align-content: center;
+  -webkit-box-pack: center;
+          justify-content: center;
+  flex-basis: calc((100%/3)-10px);
+  line-height: 48px;
+  background-repeat: no-repeat;
+  color: white;
+  -webkit-text-decoration-line: none;
+          text-decoration-line: none;
+  font-size: 14px;
+}
+
+img {
+	margin-right: .5em;
+}
+
+.fb {
+	background-color: #3b5898;
+}
+
+.msngr { 
+	background-color: #5ea8ed;
+}
+
+.viber {
+	background-color: #885aa1;
+}
+

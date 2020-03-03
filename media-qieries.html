@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+
+
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/modern-normalize/modern-normalize.min.css">
+
+
+
+
+
+	<style>
+
+
+		/* Extra small devices (phones, 599.8px and down) */
+		@media only screen and (max-width: 37.4875em) {
+
+		}
+
+		/* Small devices (portrait tablets and large phones, 600px and up) */
+		@media only screen and (min-width: 37.5em) {
+
+		}
+
+		/* Medium devices (landscape tablets, 768px and up) */
+		@media only screen and (min-width: 48em) {
+
+		}
+
+		/* Large devices (laptops/desktops, 1024px and up) */
+		@media only screen and (min-width: 64em) {
+
+		}
+
+		/* Extra large devices (large laptops and desktops, 1280px and up) */
+		@media only screen and (min-width: 80em) {
+
+		} 
+
+
+		/* Media Queries - In between two widths 480px and 767.98px */
+		@media screen and (min-width: 30em) and (max-width: 47.99875em) { 
+
+		}
+
+
+
+		@media (hover: none) {
+			/* behaviour for touch browsers */
+		}
+		
+
+		
+
+
+		
+
+
+		html,
+		body {
+			min-height: 100vh;
+		}
+		body {
+			padding: 0;
+			margin: 0;
+
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+		}
+
+
+		
+		/* Cтили для самых малых размеров */
+		.box {
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+			align-items: center;
+			text-align: center;
+
+			margin: auto;			
+			padding: 1rem;
+			width: 100%;
+			height: 100vh;
+			background-color: #ffcdd2;
+			transition: all .2s;
+		}
+
+		.title {
+			font-weight: 600;
+			font-size: calc(1.5em + .5vw);
+		}
+
+		.title--md,
+		.title--xl {
+			display: none;
+		}
+
+		
+		@media screen and (min-width: 30em) {
+			.title--sm {
+				display: none;
+			}
+		}
+
+		/* Дописываем/меняем стили для размера от 480px и до 767.98px ....*/
+		@media screen and (min-width: 30em) and (max-width: 47.99875em) { 
+			.box {
+				height: 50vh;
+				background-color: #bbdefb;
+			}
+
+			.title--md {
+				display: block;
+			}
+		}
+
+		
+		/* Дописываем/меняем стили для размера от 768px ....*/
+		@media only screen and (min-width: 48em) {
+			.box {
+				max-width: 50%;
+				height: 380px;
+				background-color: #ce93d8;
+			}
+
+			.title--xl {
+				display: block;
+			}
+		}
+
+
+	</style>
+</head>
+<body>
+
+
+
+	<div class="box">
+		
+		<div>Поменяй размер экрана</div>
+		<div class="title title--sm">Только маленький</div>
+		<div class="title title--md">От 480px до 767px</div>
+		<div class="title title--xl">От 768px и более...</div>
+
+	</div>
+
+	
+</body>
+</html>

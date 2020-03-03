@@ -1,0 +1,30 @@
+.container {
+	/*Это контейнер чтоб наглядно разместить примеры*/
+	padding-top: 100px;
+	display: -webkit-box;
+	display: flex;
+	justify-content: space-around;
+	width: 100%;
+	margin: auto;
+}
+
+.any-block-element {
+	position: relative;  /*Говорим что относительно этого блока будет позиционировать элемент*/
+	height: 200px;
+	width: 200px;
+	background-color: yellow;
+}
+
+.element-in-top-right-corner {
+/*Позиционируем элемент*/
+  position: absolute;   
+	top: -8px; /*Минус означает что мы выходим за рамки элемента относительно которого позиционируем*/
+	right: -8px;
+
+/*Размер + Скругление и цвет*/
+	height: 50px;
+	width: 50px;
+	border-radius: 50%;
+	background-color: red;
+}
+

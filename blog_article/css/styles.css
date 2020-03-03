@@ -1,0 +1,60 @@
+html, body{
+	font-size: 16px;
+	line-height: 1.64;
+  	letter-spacing: normal;
+  	font-family: 'Roboto', sans-serif;
+}
+
+.wrapper {
+	max-width: 984px;
+	margin: 0 auto;
+}
+
+.content_block {
+	display: flex;
+	flex-direction: row;
+	margin-bottom: 120px;
+	justify-content: center;
+	align-items: center;
+}
+
+.content_block:nth-child(odd) {
+	flex-direction: row-reverse;
+}
+
+.content_block:nth-child(odd) img{
+	margin-left: 64px;
+}
+
+.content_block:nth-child(even) img{
+	margin-right: 64px;
+}
+
+.content__item {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	max-width: 460px;
+	flex:1;
+}
+
+.article__name {
+	font-size: 48.8px;
+	font-weight: bold;
+	margin: 120px 0 80px 0;
+   
+}
+
+.name {
+	font-size: 31.3px;
+}
+
+img {
+	display: inline-block;
+	max-width: 100%;
+	height: auto;
+}
+
+
+
+
